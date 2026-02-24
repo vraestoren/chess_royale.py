@@ -225,5 +225,4 @@ class ChessRoyale:
 			"isHasSubscription": False
 		}
 		return self.session.post(
-			f"{self.api}/storm",
-			json=data).json()
+			f"{self.api}/storm", json=data).json()
