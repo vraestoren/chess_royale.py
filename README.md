@@ -3,7 +3,8 @@ Mobile-API for [Chess Royale](https://play.google.com/store/apps/details?id=com.
 
 ## Example
 ```python
-import chess_royale
-chess_royale = chess_royale.ChessRoyale()
+from chess_royale import ChessRoyale
+
+chess_royale = ChessRoyale()
 chess_royale.login_with_auth_token(auth_token="")
 ```
